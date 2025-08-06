@@ -1,0 +1,30 @@
+{
+  "name": "devcontext",
+  "version": "1.0.0",
+  "description": "Engenharia de contexto para desenvolvimento JavaScript/TypeScript",
+  "type": "module",
+  "main": "mcp/server.js",
+  "scripts": {
+    "start": "node mcp/server.js",
+    "dev": "node --watch mcp/server.js",
+    "test": "node test-simple.js",
+    "test-mcp": "node test-mcp.js"
+  },
+  "keywords": [
+    "mcp",
+    "context",
+    "javascript",
+    "typescript",
+    "development",
+    "patterns",
+    "best-practices"
+  ],
+  "author": "DevContext",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  }
+}
